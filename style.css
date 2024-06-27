@@ -109,6 +109,15 @@ h2 span {
     height: 16px;
 }
 
+#box2 {
+    background-color: beige;
+    height:650px;
+}
+
+li{
+    display: inline;
+}
+
 /* Resposive design for between */
 @media (max-width: 1354px){
    
