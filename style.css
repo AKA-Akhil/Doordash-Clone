@@ -111,7 +111,7 @@ h2 span {
 
 #box2 {
     background-color: white;
-    height: 530px;
+    height: 450px;
     padding: 50px 10%;
     display: flex;
     justify-content: space-around;
@@ -146,7 +146,7 @@ h2 span {
 
 #box3 {
     background-color: white;
-    height: 520px;
+    height: 300px;
     display: flex;
     align-items: center;
     padding: 0 10%;
@@ -174,6 +174,41 @@ h2 span {
     max-width: 100%;
     height: auto;
 }
+
+
+#box4 {
+    background-color: #fef1ee;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 0 6%;
+    padding-top: 60px;
+}
+
+#text2 {
+    flex: 1;
+    padding-left: 100px;
+}
+
+#text2 button {
+    width: 25%;
+    height: 40px;
+    background-color: #d91400;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 110%;
+}
+
+#pic2 {
+    flex: 1;
+}
+
+#pic2 img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* Responsive design for larger screens */
 @media (max-width: 1354px) {
@@ -221,6 +256,27 @@ h2 span {
     .feature {
         width: 80%;
         margin-bottom: 20px;
+    }
+
+    #box3 {
+        flex-direction: column;
+        height: auto;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    #text1 button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #pic1 {
+        order: -1;
+        margin-top: 20px;
+    }
+
+    #pic1 img {
+        width: 100%;
     }
 }
 
@@ -289,6 +345,7 @@ h2 span {
     }
 
     #pic1 {
+        order: -1;
         margin-top: 20px;
     }
 
