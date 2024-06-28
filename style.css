@@ -281,6 +281,31 @@ h2 span {
     height: auto;
 }
 
+/*something  */
+#box7 {
+    background-color: #fef1ee;
+    height: 1000px;
+    padding: 0 6%;
+    padding-top: 60px;
+}
+
+#heading {
+    margin-left: 37%;
+    margin-top: 2%;
+}
+
+#headingsub{
+    margin-left: 20%;
+    margin-bottom: 5%;
+}
+
+
+#box7 img{
+    max-width: 500px;
+    height: auto;
+}
+
+
 /* Responsive design for larger screens */
 @media (max-width: 1354px) {
     #d {
