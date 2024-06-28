@@ -241,6 +241,12 @@ h2 span {
     border: none;
     font-size: 100%;
     margin-left: 46%;
+    margin-top: 14px;
+}
+
+.g{
+    padding-left: 47%;
+    color: white;
 }
 
 #box6 {
@@ -391,10 +397,17 @@ h2 span {
     #f p {
         font-size: 90%;
     }
+    
 
     #box5 button {
         width: 50%;
         margin: 20px auto;
+        
+    }
+
+    .g{
+        padding-left: 0;
+        color: white;
     }
     
     #box6 {
@@ -549,6 +562,15 @@ h2 span {
     #box5 button {
         width: 50%;
         margin: 20px auto;
+    }
+    #bu{
+        margin-top: 5px;
+    }
+
+    .g{
+        padding-left: 0;
+        color: white;
+        
     }
 
     #box6 {
