@@ -284,7 +284,7 @@ h2 span {
 /*something  */
 #box7 {
     background-color: #fef1ee;
-    height: 1000px;
+    height: 2000px;
     padding: 0 6%;
     padding-top: 60px;
 }
@@ -303,6 +303,53 @@ h2 span {
 #box7 img{
     max-width: 500px;
     height: auto;
+    margin-left: 13%
+}
+
+#text4{
+    margin-left: 13%;
+}
+ #headingsub2 {
+    margin-left: 8%;
+ }
+
+#headingsub3 {
+    margin-left: 19%;
+}
+
+#parahsub {
+    margin-left: 11%;
+}
+
+#text4 button {
+    width: 14%;
+    height: 40px;
+    background-color: #d91400;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 110%;
+    margin-left: 14.5%;
+    margin-bottom: 3%;
+}
+
+#text5{
+    margin-left: 13%;
+}
+ #headingsub4 {
+    margin-left: 5%;
+ }
+
+ #text5 button {
+    width: 14%;
+    height: 40px;
+    background-color: #d91400;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 110%;
+    margin-left: 13%;
+    margin-bottom: 3%;
 }
 
 
