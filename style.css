@@ -175,7 +175,6 @@ h2 span {
     height: auto;
 }
 
-
 #box4 {
     background-color: #fef1ee;
     height: 500px;
@@ -208,33 +207,32 @@ h2 span {
     max-width: 100%;
     height: auto;
 }
-/*  */
 
-#box5{
-    background-color: #b99b04   ;
+#box5 {
+    background-color: #b99b04;
     height: 430px;
 }
+
 #f b {
     display: block;
     margin-left: 43%;
     font-size: 200%;
     font-family: Gill Sans MT;
     color: white;
-    padding-top:100px;
+    padding-top: 100px;
 }
 
-#f h4{
+#f h4 {
     margin-left: 41%;
     color: white;
 }
 
-#f p{
+#f p {
     margin-left: 36%;
-    color:
-     white;
+    color: white;
 }
 
-#box5 button{
+#box5 button {
     width: 10%;
     height: 40px;
     background-color: #d91400;
@@ -291,6 +289,7 @@ h2 span {
     .feature {
         width: 80%;
         margin-bottom: 20px;
+        margin-left: 13%;
     }
 
     #box3 {
@@ -313,11 +312,62 @@ h2 span {
     #pic1 img {
         width: 100%;
     }
-    
+
+    #box4 {
+        flex-direction: column;
+        height: auto;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    #text2 {
+        order: 2;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    #text2 button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #pic2 {
+        order: 1;
+        margin-top: 20px;
+    }
+
+    #pic2 img {
+        width: 100%;
+    }
+
+    #box5 {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #f b {
+        margin-left: 0;
+        padding-top: 20px;
+        font-size: 150%;
+    }
+
+    #f h4, #f p {
+        margin-left: 0;
+    }
+
+    #f p {
+        font-size: 90%;
+    }
+
+    #box5 button {
+        width: 50%;
+        margin: 20px auto;
+    }
 }
 
 /* Responsive styles for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 1194px) {
     #box {
         height: 550px;
     }
@@ -387,5 +437,57 @@ h2 span {
 
     #pic1 img {
         width: 100%;
+    }
+
+    #box4 {
+        flex-direction: column;
+        height: auto;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    #text2 {
+        order: 2;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    #text2 button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #pic2 {
+        order: 1;
+        margin-top: 20px;
+    }
+
+    #pic2 img {
+        width: 100%;
+    }
+
+    #box5 {
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+
+    #f b {
+        margin-left: 0;
+        padding-top: 20px;
+        font-size: 150%;
+    }
+
+    #f h4, #f p {
+        margin-left: 0;
+    }
+
+    #f p {
+        font-size: 90%;
+    }
+
+    #box5 button {
+        width: 70%;
+        margin: 20px auto;
     }
 }
