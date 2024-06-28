@@ -243,6 +243,38 @@ h2 span {
     margin-left: 46%;
 }
 
+#box6 {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    padding-top: 8%;
+}
+
+#text3 {
+    flex: 1;
+}
+
+#text3 button {
+    width: 17%;
+    height: 40px;
+    background-color: #d91400;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 110%;
+}
+
+#pic3 {
+    flex: 1;
+}
+
+#pic3 img {
+    max-width: 100%;
+    height: auto;
+}
+
 /* Responsive design for larger screens */
 @media (max-width: 1354px) {
     #d {
@@ -364,6 +396,33 @@ h2 span {
         width: 50%;
         margin: 20px auto;
     }
+    
+    #box6 {
+        flex-direction: column;
+        height: auto;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    #text3 {
+        order: 2;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    #text3 button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #pic3 {
+        order: 1;
+        margin-top: 20px;
+    }
+
+    #pic3 img {
+        width: 100%;
+    }
 }
 
 /* Responsive styles for mobile devices */
@@ -416,6 +475,7 @@ h2 span {
     .feature {
         width: 80%;
         margin-bottom: 20px;
+        margin-left: 13%;
     }
 
     #box3 {
@@ -487,7 +547,34 @@ h2 span {
     }
 
     #box5 button {
-        width: 70%;
+        width: 50%;
         margin: 20px auto;
+    }
+
+    #box6 {
+        flex-direction: column;
+        height: auto;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    #text3 {
+        order: 2;
+        padding-left: 0;
+        margin-top: 20px;
+    }
+
+    #text3 button {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    #pic3 {
+        order: 1;
+        margin-top: 20px;
+    }
+
+    #pic3 img {
+        width: 100%;
     }
 }
