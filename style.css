@@ -318,7 +318,7 @@ h2 span {
 }
 
 #parahsub {
-    margin-left: 11%;
+    margin-left: 8.5%;
 }
 
 #text4 button {
@@ -329,7 +329,7 @@ h2 span {
     border-radius: 20px;
     border: none;
     font-size: 110%;
-    margin-left: 14.5%;
+    margin-left: 13%;
     margin-bottom: 3%;
 }
 
@@ -352,6 +352,57 @@ h2 span {
     margin-bottom: 3%;
 }
 
+/*  */
+
+#text6{
+    margin-left: 13%;
+}
+ #headingsub5    {
+    margin-left: 8%;
+ }
+
+#headingsub3 {
+    margin-left: 19%;
+}
+
+#parahsub2 {
+    margin-left: 5%;
+}
+
+#text6 button {
+    width: 14%;
+    height: 40px;
+    background-color: #d91400;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 110%;
+    margin-left: 13%;
+    margin-bottom: 3%;
+}
+
+#text7 {
+    margin-left: 13%;
+}
+ #headingsub4 {
+    margin-left: 5%;
+ }
+
+ #parahsub3 {
+    margin-left: 4%;
+ }
+
+ #text7 button {
+    width: 14%;
+    height: 40px;
+    background-color: #d91400;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 110%;
+    margin-left: 13%;
+    margin-bottom: 3%;
+}
 
 /* Responsive design for larger screens */
 @media (max-width: 1354px) {
