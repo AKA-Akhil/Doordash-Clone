@@ -208,7 +208,42 @@ h2 span {
     max-width: 100%;
     height: auto;
 }
+/*  */
 
+#box5{
+    background-color: #b99b04   ;
+    height: 430px;
+}
+#f b {
+    display: block;
+    margin-left: 43%;
+    font-size: 200%;
+    font-family: Gill Sans MT;
+    color: white;
+    padding-top:100px;
+}
+
+#f h4{
+    margin-left: 41%;
+    color: white;
+}
+
+#f p{
+    margin-left: 36%;
+    color:
+     white;
+}
+
+#box5 button{
+    width: 10%;
+    height: 40px;
+    background-color: #d91400;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 100%;
+    margin-left: 46%;
+}
 
 /* Responsive design for larger screens */
 @media (max-width: 1354px) {
@@ -278,6 +313,7 @@ h2 span {
     #pic1 img {
         width: 100%;
     }
+    
 }
 
 /* Responsive styles for mobile devices */
