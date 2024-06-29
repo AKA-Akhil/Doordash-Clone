@@ -318,11 +318,15 @@ h2 span {
 }
 
 #headingsub2, #headingsub5 {
-    margin-left: 8%;
+    margin-left: 15%;
 }
 
-#headingsub3, #headingsub4 {
-    margin-left: 19%;
+#headingsub3 {
+    margin-left: 37%;
+}
+
+ #headingsub4 {
+    margin-left: 13%;
 }
 
 #parahsub, #parahsub2, #parahsub3 {
@@ -337,7 +341,7 @@ h2 span {
     border-radius: 20px;
     border: none;
     font-size: 110%;
-    margin-left: 13%;
+    margin-left: 30%;
     margin-bottom: 3%;
 }
 
@@ -640,6 +644,10 @@ h2 span {
     }
 
     #headingsub3 {
+        margin-left: 0;
+    }
+
+    #headingsub5 {
         margin-left: 0;
     }
 
