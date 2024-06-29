@@ -7,4 +7,8 @@ Just a project so that i can learn responsive design
 ![image](https://github.com/AKA-Akhil/Doordash-Clone/assets/145592032/7363f8b5-4197-4ef6-b4bc-8f638ed17bc2)
 ![image](https://github.com/AKA-Akhil/Doordash-Clone/assets/145592032/21204d9b-0e4a-4e1b-bacf-a4c12e9956cf)
 ![image](https://github.com/AKA-Akhil/Doordash-Clone/assets/145592032/58183806-0c34-4b48-b69d-3d7b8976864c)
+<<<<<<< HEAD
 ![image](https://github.com/AKA-Akhil/Doordash-Clone/assets/145592032/de5c2c4a-9773-4e43-9b72-95cf902558d9)
+=======
+![image](https://github.com/AKA-Akhil/Doordash-Clone/assets/145592032/de5c2c4a-9773-4e43-9b72-95cf902558d9)
+>>>>>>> d396efd2b958e92a1872267b3d8974a8a50897c2
