@@ -281,12 +281,19 @@ h2 span {
     height: auto;
 }
 
-/*something  */
+/* Box 7 styles */
 #box7 {
     background-color: #fef1ee;
-    height: 2000px;
     padding: 0 6%;
     padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the gap between items as needed */
+}
+
+#box7 > div {
+    flex: 1 1 calc(50% - 20px); /* Each item takes up half the width minus the gap */
+    box-sizing: border-box;
 }
 
 #heading {
@@ -294,106 +301,35 @@ h2 span {
     margin-top: 2%;
 }
 
-#headingsub{
+#headingsub {
     margin-left: 20%;
     margin-bottom: 5%;
 }
 
-
-#box7 img{
+#box7 img {
     max-width: 500px;
     height: auto;
-    margin-left: 13%
-}
-
-#text4{
     margin-left: 13%;
 }
- #headingsub2 {
-    margin-left: 8%;
- }
 
-#headingsub3 {
+#text4, #text5, #text6, #text7 {
+    margin-left: 13%;
+}
+
+#headingsub2, #headingsub5 {
+    margin-left: 8%;
+}
+
+#headingsub3, #headingsub4 {
     margin-left: 19%;
 }
 
-#parahsub {
+#parahsub, #parahsub2, #parahsub3 {
     margin-left: 8.5%;
 }
 
-#text4 button {
-    width: 14%;
-    height: 40px;
-    background-color: #d91400;
-    color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 110%;
-    margin-left: 13%;
-    margin-bottom: 3%;
-}
-
-#text5{
-    margin-left: 13%;
-}
- #headingsub4 {
-    margin-left: 5%;
- }
-
- #text5 button {
-    width: 14%;
-    height: 40px;
-    background-color: #d91400;
-    color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 110%;
-    margin-left: 13%;
-    margin-bottom: 3%;
-}
-
-/*  */
-
-#text6{
-    margin-left: 13%;
-}
- #headingsub5    {
-    margin-left: 8%;
- }
-
-#headingsub3 {
-    margin-left: 19%;
-}
-
-#parahsub2 {
-    margin-left: 5%;
-}
-
-#text6 button {
-    width: 14%;
-    height: 40px;
-    background-color: #d91400;
-    color: white;
-    border-radius: 20px;
-    border: none;
-    font-size: 110%;
-    margin-left: 13%;
-    margin-bottom: 3%;
-}
-
-#text7 {
-    margin-left: 13%;
-}
- #headingsub4 {
-    margin-left: 5%;
- }
-
- #parahsub3 {
-    margin-left: 4%;
- }
-
- #text7 button {
-    width: 14%;
+#text4 button, #text5 button, #text6 button, #text7 button {
+    width: 28%;
     height: 40px;
     background-color: #d91400;
     color: white;
@@ -461,7 +397,7 @@ h2 span {
     }
 
     #text1 button {
-        width: 100%;
+        width: 43%;
         margin: 10px 0;
     }
 
@@ -482,18 +418,16 @@ h2 span {
     }
 
     #text2 {
-        order: 2;
         padding-left: 0;
-        margin-top: 20px;
     }
 
     #text2 button {
-        width: 100%;
+        width: 38%;
         margin: 10px 0;
     }
 
     #pic2 {
-        order: 1;
+        order: -1;
         margin-top: 20px;
     }
 
@@ -503,36 +437,24 @@ h2 span {
 
     #box5 {
         height: auto;
-        padding: 20px;
+        text-align: center;
+        padding: 50px 0;
+    }
+
+    #f span {
+        padding-left: 0px;
+    }
+
+    #f b, #f h4, #f p {
+        margin: 20px 0;
         text-align: center;
     }
 
-    #f b {
-        margin-left: 0;
-        padding-top: 20px;
-        font-size: 150%;
-    }
-
-    #f h4, #f p {
-        margin-left: 0;
-    }
-
-    #f p {
-        font-size: 90%;
-    }
-    
-
     #box5 button {
-        width: 50%;
+        width: 30%;
         margin: 20px auto;
-        
     }
 
-    .g{
-        padding-left: 0;
-        color: white;
-    }
-    
     #box6 {
         flex-direction: column;
         height: auto;
@@ -540,33 +462,56 @@ h2 span {
         text-align: center;
     }
 
-    #text3 {
-        order: 2;
-        padding-left: 0;
-        margin-top: 20px;
-    }
-
     #text3 button {
-        width: 100%;
+        width: 40%;
         margin: 10px 0;
     }
 
     #pic3 {
-        order: 1;
+        order: -1;
         margin-top: 20px;
     }
 
     #pic3 img {
         width: 100%;
     }
-}
 
-/* Responsive styles for mobile devices */
-@media (max-width: 1194px) {
-    #box {
-        height: 550px;
+    /* Responsive styles for box 7 */
+    #box7 {
+        flex-direction: column;
+        padding: 0 5%;
+        text-align: center;
     }
 
+    #heading {
+        margin-left: 3%;
+    }
+
+    #headingsub {
+        margin-left: 0;
+    }
+
+    #box7 img {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #text4, #text5, #text6, #text7 {
+        margin: 20px 0;
+    }
+
+    #text4 button, #text5 button, #text6 button, #text7 button {
+        width: 40%;
+        margin: 10px 0;
+    }
+
+    #headingsub4 {
+        margin-left: 2%;
+    }
+}
+
+@media (max-width: 414px) {
+    /* Additional styles for even smaller screens, if necessary */
     #d {
         margin-left: 2%;
         padding-top: 3%;
@@ -642,19 +587,13 @@ h2 span {
         text-align: center;
     }
 
-    #text2 {
-        order: 2;
-        padding-left: 0;
-        margin-top: 20px;
-    }
-
     #text2 button {
         width: 100%;
         margin: 10px 0;
     }
 
     #pic2 {
-        order: 1;
+        order: -1;
         margin-top: 20px;
     }
 
@@ -664,36 +603,18 @@ h2 span {
 
     #box5 {
         height: auto;
-        padding: 20px;
         text-align: center;
+        padding: 50px 0;
     }
 
-    #f b {
-        margin-left: 0;
-        padding-top: 20px;
-        font-size: 150%;
-    }
-
-    #f h4, #f p {
-        margin-left: 0;
-    }
-
-    #f p {
-        font-size: 90%;
+    #f b, #f h4, #f p {
+        margin: 20px 0;
+        text-align: center;
     }
 
     #box5 button {
         width: 50%;
         margin: 20px auto;
-    }
-    #bu{
-        margin-top: 5px;
-    }
-
-    .g{
-        padding-left: 0;
-        color: white;
-        
     }
 
     #box6 {
@@ -703,23 +624,38 @@ h2 span {
         text-align: center;
     }
 
-    #text3 {
-        order: 2;
-        padding-left: 0;
-        margin-top: 20px;
-    }
-
     #text3 button {
         width: 100%;
         margin: 10px 0;
     }
 
     #pic3 {
-        order: 1;
+        order: -1;
         margin-top: 20px;
     }
 
     #pic3 img {
         width: 100%;
+    }
+
+    /* Responsive styles for box 7 */
+    #box7 {
+        flex-direction: column;
+        padding: 0 5%;
+        text-align: center;
+    }
+
+    #box7 img {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    #text4, #text5, #text6, #text7 {
+        margin: 20px 0;
+    }
+
+    #text4 button, #text5 button, #text6 button, #text7 button {
+        width: 100%;
+        margin: 10px 0;
     }
 }
