@@ -568,7 +568,7 @@ h2 span {
     }
 
     #text1 button {
-        width: 100%;
+        width: 40%;
         margin: 10px 0;
     }
 
@@ -589,7 +589,7 @@ h2 span {
     }
 
     #text2 button {
-        width: 100%;
+        width: 40%;
         margin: 10px 0;
     }
 
@@ -626,7 +626,7 @@ h2 span {
     }
 
     #text3 button {
-        width: 100%;
+        width: 40%;
         margin: 10px 0;
     }
 
@@ -656,7 +656,7 @@ h2 span {
     }
 
     #text4 button, #text5 button, #text6 button, #text7 button {
-        width: 100%;
+        width: 40%;
         margin: 10px 0;
     }
 }
