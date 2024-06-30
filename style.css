@@ -506,8 +506,6 @@ h2 span {
         margin-left: 23%;
         padding-top: 30%;
     }
-    
-    
 
     h2 span {
         display: flex;
@@ -555,12 +553,14 @@ h2 span {
         flex-direction: column;
         height: auto;
         padding: 0 5%;
-        text-align: center;
+        text-align: left;
+        align-items: flex-start;
     }
 
     #text1 button {
         width: 43%;
         margin: 10px 0;
+        align-self: flex-start;
     }
 
     #pic1 {
@@ -576,7 +576,8 @@ h2 span {
         flex-direction: column;
         height: auto;
         padding: 0 5%;
-        text-align: center;
+        text-align: left;
+        align-items: flex-start;
     }
 
     #text2 {
@@ -586,6 +587,7 @@ h2 span {
     #text2 button {
         width: 38%;
         margin: 10px 0;
+        align-self: flex-start;
     }
 
     #pic2 {
@@ -621,12 +623,14 @@ h2 span {
         flex-direction: column;
         height: auto;
         padding: 0 5%;
-        text-align: center;
+        text-align: left;
+        align-items: flex-start;
     }
 
     #text3 button {
         width: 40%;
         margin: 10px 0;
+        align-self: flex-start;
     }
 
     #pic3 {
@@ -685,6 +689,18 @@ h2 span {
         margin-left: 2%;
     }
 
+    #c1, #c2, #c3, #c4 {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        text-align: left;
+        padding: 0 5%;
+    }
+
+    #c1 button, #c2 button, #c3 button, #c4 button {
+        align-self: flex-start;
+    }
+
     .footer {
         flex-direction: column;
     }
@@ -701,6 +717,5 @@ h2 span {
     .footer-language {
         margin-bottom: 20px;
     }
-
-    
 }
+
