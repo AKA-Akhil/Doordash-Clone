@@ -680,13 +680,25 @@ h2 span {
         margin: 20px 0;
     }
 
-    #text4 button, #text5 button, #text6 button, #text7 button {
+    #text4 button{
+        width: 50%;
+        margin: 10px 0;
+    }
+
+    #text7 button {
+        width: 45%;
+        margin: 10px 0;
+    }
+
+    #text5 button, #text6 button{
         width: 40%;
         margin: 10px 0;
     }
 
+    
+
     #headingsub4 {
-        margin-left: 2%;
+        margin-left: 0;
     }
 
     #c1, #c2, #c3, #c4 {
@@ -695,6 +707,10 @@ h2 span {
         align-items: flex-start;
         text-align: left;
         padding: 0 5%;
+    }
+
+    #parahsub, #parahsub2, #parahsub3 {
+        margin-left: 0;
     }
 
     #c1 button, #c2 button, #c3 button, #c4 button {
