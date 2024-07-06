@@ -1,8 +1,40 @@
 /* Base styles */
+@font-face {
+    font-family: 'TTNorms';
+    src: url('fonts/TTNorms-Regular.woff2') format('woff2'),
+         url('fonts/TTNorms-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTNorms';
+    src: url('fonts/TTNorms-Medium.woff2') format('woff2'),
+         url('fonts/TTNorms-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTNorms';
+    src: url('fonts/TTNorms-Bold.woff2') format('woff2'),
+         url('fonts/TTNorms-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTNorms';
+    src: url('fonts/TTNorms-ExtraBold.woff2') format('woff2'),
+         url('fonts/TTNorms-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans MT';
+    font-family: 'TTNorms';
 }
 #box {
     background-image: url('Assets/main1.png');
@@ -32,7 +64,6 @@ h2 span {
     width: 12%;
     height: 40px;
     background-color: #d91400;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
     border-radius: 20px;
     border: none;
@@ -43,7 +74,6 @@ h2 span {
     width: 12%;
     height: 40px;
     background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
     color: #d91400;
     border-radius: 20px;
     border: none;
@@ -55,7 +85,6 @@ h2 span {
     margin-left: 32%;
     margin-top: 17%;
     font-size: 200%;
-    font-family: Gill Sans MT;
     color: white;
 }
 
@@ -107,7 +136,6 @@ h2 span {
     align-items: center;
     height: 30px;
     background-color: white;
-    font-family: 'Gill Sans MT';
     border-radius: 20px;
     border: none;
     padding: 0 10px;
@@ -131,10 +159,14 @@ h2 span {
     width: 30%;
 }
 
-#scooty{
+#phone{
     width: 100px;
     height: auto;
+    margin-left: 38%;
+    margin-top: 10%;
+    margin-bottom: 9%;
 }
+
 
 .feature h2 {
     font-size: 24px;
@@ -231,7 +263,6 @@ h2 span {
     display: block;
     margin-left: 43%;
     font-size: 200%;
-    font-family: Gill Sans MT;
     color: white;
     padding-top: 100px;
 }
@@ -469,7 +500,6 @@ h2 span {
     background-color: #191919;
     color: #fff;
     padding: 20px;
-    font-family: Arial, sans-serif;
 }
 
 .footer {
@@ -561,6 +591,9 @@ h2 span {
 
 /* Responsive design for larger screens */
 @media (max-width: 1354px) {
+    #phone{
+        margin-left: 30%;;
+    }
     #box {
         background-image: url('Assets/main2.png');
     }
